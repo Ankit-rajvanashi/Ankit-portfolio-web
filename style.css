@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0; 
+}
+.navbar{
+    background-color: dimgray;
+    color: whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a{
+    display: inline;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+img{
+width:70px;
+height:75px;
+}
