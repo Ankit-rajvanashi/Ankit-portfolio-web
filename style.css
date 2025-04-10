@@ -2,6 +2,15 @@
     margin:0;
     padding:0; 
 }
+body{
+    background-color: hsl(0, 0%, 83%);
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+}
 .navbar{
     background-color: dimgray;
     color: whitesmoke;
@@ -10,16 +19,56 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    height: 120px;
 }
-li a{
+li a {
     display: inline;
-    padding: 10px;
     align-items: center;
     text-decoration: none;
     color: whitesmoke;
+    font-size: 40px;
 
 }
-img{
+li{
+    margin: 0 30px;
+}
+.logo{
 width:70px;
 height:75px;
+}
+
+.nav:hover{
+    color: red;
+    border-bottom: solid 3px black;
+}
+.edu{    
+    font-size: 20px;        
+}
+h2 {
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.main-content{
+    width: 50%;
+    margin-left: 50px;
+}
+span{
+    color: blueviolet;
+}
+.main-image{
+    margin-right: 50px;
+}
+marquee{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: lightgray;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
 }
