@@ -12,63 +12,122 @@ p{
     font-size: 30px;
 }
 .navbar{
-    background-color: dimgray;
-    color: whitesmoke;
+    background-color: rgb(61, 60, 60);
+    color: rgb(5, 5, 5);
     text-decoration: none;
     list-style-type: none;
     display:flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     height: 120px;
+    position: sticky;
 }
 li a {
     display: inline;
     align-items: center;
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-size: 40px;
 
 }
 li{
     margin: 0 30px;
 }
-.logo{
+<!--.logo{
 width:70px;
 height:75px;
-}
+}-->
 
-.nav:hover{
+.nav:hover{    
     color: red;
-    border-bottom: solid 3px black;
+    border-bottom: solid 3px rgb(8, 8, 8);   
+}
+.nav{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+    text-align: right;    
 }
 .edu{    
-    font-size: 20px;        
+    font-size: 30px;
+    display: flex;
+    color: black;       
+}
+.skills{ 
+    background-color: hsla(240, 1%, 45%, 0.644);
+}
+.skill-element{
+    list-style-type: none;
+}
+.EUD!{
+    margin: 50px;
+    padding: 25px;
 }
 h2 {
-    font-size: 40px;
+    font-size: 60px;
+    color: rgb(169, 208, 240);
+}
+h3{
+    font-size: 60px;
+    color: rgb(131, 160, 255);
+}
+h4{
+    font-size: 30px;
+    color: rgb(25, 56, 231);
 }
 .main{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    background-color: hsl(0, 2%, 33%);
+    color: #f5f3f3;
 }
 .main-content{
     width: 50%;
-    margin-left: 50px;
+    margin-left: 50px;    
 }
 span{
-    color: blueviolet;
+    color: rgb(10, 167, 214);
 }
 .main-image{
     margin-right: 50px;
 }
+.Education-content{
+    background-color: hsla(240, 1%, 45%, 0.644);
+    color: #faf9f9;
+    justify-content: space-around;
+}
+.Project-content{
+    display: flex; 
+    justify-content: space-around;   
+}
+h5{
+    font-size: 50px;
+    color: rgb(22, 204, 250);
+}
 marquee{
-    color: blueviolet;
+    color: rgb(19, 102, 226);
     font-size: 40px;
     font-weight: bold;
     background-color: lightgray;
     height: 50px;
     width: 100%;
     padding-top: 10px;
+}
+.skills1{
+    display: flex;
+}
+/* about section */
+
+.about{
+    display: flex;
+    background-color: hsla(240, 1%, 45%, 0.644);
+}
+.Contact-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(246, 80%, 58%);
+    color: rgb(0, 0, 0);
 }
