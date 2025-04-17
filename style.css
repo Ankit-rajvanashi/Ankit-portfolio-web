@@ -98,6 +98,9 @@ span{
     color: #faf9f9;
     justify-content: space-around;
 }
+.Project{background-color: rgb(93, 99, 102);
+
+}
 .Project-content{
     display: flex; 
     justify-content: space-around;   
