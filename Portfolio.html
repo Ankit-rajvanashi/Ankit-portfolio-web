@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.3.2/css/flag-icons.min.css"
-        integrity="sha512-+WVTaUIzUw5LFzqIqXOT3JVAc5SrMuvHm230I9QAZa6s+QRk8NDPswbHo2miIZj3yiFyV9lAgzO1wVrjdoO4tw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="navbar">
         <!-- <a href ="#"><img class="logo" src="image/logo[2].jpg"></a> -->
         <ul class="navbar 1">
-            <li class="nav"><a href="#home">Home</a></li>
-            <li class="nav"><a href="#about">About</a></li>
-            <li class="nav"><a href="#Project">Project</a></li>
-            <li class="nav"><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-house"></i><li class="nav"><a href="#home">Home</a></li>
+            <i class="fa-solid fa-user"></i><li class="nav"><a href="#about">About</a></li>
+            <i class="fa-solid fa-sheet-plastic"></i><li class="nav"><a href="#Project">Project</a></li>
+            <i class="fa-solid fa-phone"></i><li class="nav"><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
     <section class="home" ; id="home">
@@ -49,12 +47,12 @@
         <div class="skills">
             <h2>Skills</h2>
             <ul class="skill-element">
-                <span class="edu"><li >Adobe Photoshop</li> <meter min="0" max="100" value="85"></meter></span>
-               <span class="edu"><li >Adobe Illustrator</li> <meter min="0" max="100" value="90"></meter></span>
-                <span class="edu"><li >HTML&CSS</li> <meter min="0" max="100" value="40"></meter></span>
-                <span class="edu"><li >Ms Power Point</li> <meter min="0" max="100" value="70"></meter></span>
-                <span class="edu"><li >Ms Excel</li> <meter min="0" max="100" value="75"></meter></span>
-                <span class="edu"><li >Ms Word</li> <meter min="0" max="100" value="79"></meter></span>
+                <span class="edu"><li >Adobe Photoshop</li> <progress min="0" max="100" value="85" class="progress"></progress></span>
+               <span class="edu"><li >Adobe Illustrator</li> <progress min="0" max="100" value="90"></progress></span>
+                <span class="edu"><li >HTML&CSS</li> <progress min="0" max="100" value="40"></progress></span>
+                <span class="edu"><li >Ms Power Point</li> <progress min="0" max="100" value="70"></progress></span>
+                <span class="edu"><li >Ms Excel</li> <progress min="0" max="100" value="75"></progress></span>
+                <span class="edu"><li >Ms Word</li> <progress min="0" max="100" value="79"></progress></span>
             </ul>
         </div>
      </div>
@@ -67,25 +65,23 @@
             <div class="Illustrator">
                 <h4>Illustrator Work</h4>
                 <div>
-                    <img src="/projects/1 Digital Illustaur.jpg"width "auto" height="400px">
-                    <div>
+                    <img src="/projects/1 Digital Illustaur.jpg"width="auto" height="400px">
+                    <h1>
                         Digital Illustaur
-                    </div> 
+                    </h1> 
                     <div>
-                        <img src="/projects/Digital Vector.jpg"width "auto" height="400px">
-                        <div>
-                            Digital Vector
-                        </div>
+                        <img src="/projects/Digital Vector.jpg"width=auto" height="400px">
+                        <H1>Digital Vector</H1>
                     </div>                
                 </div>
             </div>
             <div class="Photoshop">
                 <h4>Photoshop Work</h4>
                 <div>
-                    <img src="/projects/2 Manipulation.png"width "auto" height="400px">                    
-                    <div>
+                    <img src="/projects/2 Manipulation.png"width="auto" height="400px">                    
+                    <h1>
                         Manipulation
-                    </div>
+                    </h1>
                     <div>
                         <img src="/projects/a man save nature.png" width="auto" height="400px">                        
                         <div>
@@ -95,16 +91,45 @@
             </div>
         </div>
     </section>
+    <section>
+        <div id="body">
+            <div class="form-container">
+                <h4>Details</h4>
+                <form>
+                  <input type="text" placeholder="Name" required>
+                  <input type="email" placeholder="Email" required>
+                  <textarea type="Message" placeholder="Your Message"></textarea>
+                  <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>       
+        <!--<div class="Form">
+            <h5>Form</h5>
+            <form method="get">
+                <big><label for="Username">NAME:</label></big>
+                <br>
+                <input type="text" name="Username" placeholder=" Enter Your Name" required>
+               <br>
+               <big><label for="E-mail">E-Mail:</label></big>
+               <br>
+               <input type="text" name="E-Mail" placeholder="Enter Your E-Mail" required>
+               <br>
+               <big><label for="Subject">Subject:</label></big>                        
+                <br>
+               <textarea type="text" class="textarea"></textarea>
+               <br>             
+               <button type="submit" name="submit">Submit</button>
+            </form>
+        </div>-->        
+    </section>
     <section class="Contact" ; id="Contact">
         <div class="Contact-content">
             <h5>Contact:</h5>            
-            <i class="fa-solid fa-phone"></i>
-            <a href="tel:+919599742205">+91 9599742205</a>           
+            <i class="fa-solid fa-phone"></i><a href="tel:+919599742205">+91 9599742205</a>           
             <br>
-            <i class="fa-solid fa-envelope"></i>
-            <a href="mailto:ankit.rajvanshi2301@gmail.com">ankit.rajvanshi2301@gmail.com</a>
+            <i class="fa-solid fa-envelope"></i><a href="mailto:ankit.rajvanshi2301@gmail.com">ankit.rajvanshi2301@gmail.com</a>
             <br>
-            <a href="https://g.co/kgs/KJnvohZ">
+            <i class="fa-solid fa-location-dot"></i><a href="https://g.co/kgs/KJnvohZ">
                 K-3/202
                 <br>
                 Mohan Garden
