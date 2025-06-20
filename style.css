@@ -103,10 +103,6 @@ span{
     margin: 50px;
     padding: 70px;
 }
-.Education-content:hover{
-    background-color: hsla(194, 63%, 48%, 0.644);
-    color: rgb(255, 255, 255);
-}
 .Project{background-color: rgb(93, 99, 102);
 
 }
@@ -199,8 +195,18 @@ marquee{
     color: rgb(0, 0, 0);
 }
 
-.fa{
-    color: rgb(231, 15, 15);
+.fa-user{
+    color: rgb(0,0,0);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-house{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-sheet-plastic{
+    color: rgb(0, 0, 0);
     font-size: 30px;
     margin-right: 10px;
 }
